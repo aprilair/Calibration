@@ -35,7 +35,7 @@ rosbag info [bag_name]
 rosrun kalibr kalibr_calibrate_cameras --bag [bag_name] --topics [topic_name] --models pinhole-radtan pinhole-radtan --target april_6x6_80x80cm.yaml
 ```
 
-## Step 6 : Verify cmaera information
+## Step 6 : Verify camera information
 ```
 rosrun kalibr kalibr_camera_validator --cam [yaml_name] --target april_6x6_80x80cm.yaml
 ```
