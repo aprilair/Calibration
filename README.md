@@ -30,7 +30,7 @@ rosbag record -O [bag_name] [topic_name1] [topic_name2]
 rosbag info [bag_name]
 ```
 
-## Step 5 : Cmaera calibrate
+## Step 5 : Camera calibrate
 ```
 rosrun kalibr kalibr_calibrate_cameras --bag [bag_name] --topics [topic_name] --models pinhole-radtan pinhole-radtan --target april_6x6_80x80cm.yaml
 ```
